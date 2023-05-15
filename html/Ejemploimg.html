@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style1.css">
+    <script src="../JS/utilidades.js"></script>
+</head>
+<body>
+    
+    <script>
+        var h1 = crearElementoConTexto("h1","Tutorial Web");
+        var h2FrontEnd = crearElementoConTexto("h2","Front End");
+        var h2Noticias = crearElementoConTexto("h2","Noticias");
+        var p = crearElementoConTexto("p","lorem ipsum");
+  
+        var imagenUno = crearImagen("../recursos/imagenes/back end 1.png");
+  
+        var pUno = crearElementoConTexto("p","lorem ipsum");
+  
+        var imagenDos = crearImagen("../recursos/imagenes/back end 2.jpeg");
+  
+        var pDos = crearElementoConTexto("p","lorem ipsum");
+  
+        var imagenTres = crearImagen("../Recursos/Imagenes/CR7.jpg");
+  
+        var ul = crearElemento("ul");
+        var liUno = crearElementoConTexto("li","FrameWork");
+        var liDos = crearElementoConTexto("li","FrameWork");
+        var liTres = crearElementoConTexto("li","FrameWork");
+        adicionarHijo(ul,liUno);
+        adicionarHijo(ul,liDos);
+        adicionarHijo(ul,liTres);
+  
+        adicionarBody(h1);
+        adicionarBody(h2FrontEnd);
+        adicionarBody(h2Noticias);
+        adicionarBody(p);
+        adicionarBody(imagenUno);
+        adicionarBody(pUno);
+        adicionarBody(imagenDos);
+        adicionarBody(pDos);
+        adicionarBody(imagenTres);
+        adicionarBody(ul);
+        </script>
+
+</body>
+</html>

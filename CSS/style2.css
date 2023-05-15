@@ -1,0 +1,14 @@
+.imagen {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 1px solid black;
+    background-size: cover;
+    display: inline-block;
+  }
+  .img{
+    width: 500px;
+    height: 200px;
+    background-size: cover;
+  }
+  
